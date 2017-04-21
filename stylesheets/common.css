@@ -1,11 +1,23 @@
 /* COLLECTIVIZED */
 
-@font-face {
-/* Write shit here */
-
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+  vertical-align: baseline;
+  font-family: Inconsolata; 
 }
 
 @font-face {
-/* Write shit here for bold font */
+  font-family: "Inconsolata";
+  src: url(../fonts/Inconsolata/Inconsolata-Regular.ttf);
+}
 
+@font-face {
+  font-family: "Inconsolata";
+  font-weight: bold;
+  src: url(../fonts/Inconsolata/Inconsolata-Bold.ttf);
 }

@@ -37,6 +37,17 @@
   width: 200px;
   height: 100px;
   z-index: 1;
+  text-align: center;
+  overflow: hidden;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+#browsing-text-alignment {
+  position: absolute;
+  text-align: left;
+  left: 48px;
+  height: 26px;
 }
 
 #timer {
