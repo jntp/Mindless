@@ -39,41 +39,50 @@
   z-index: 1;
   text-align: center;
   overflow: hidden;
-  font-size: 25px;
-  color: #ffffff;
+  font-size: 22px;
+  color: #486050;
 }
 
 #browsing-text-alignment {
   position: absolute;
   text-align: left;
-  left: 48px;
+  left: 44px;
   height: 26px;
 }
 
 #timer {
   position: absolute;
-  top: 155px;
+  top: 145px;
   left: 45px;
-  width: 155px;
+  width: 200px;
   height: 60px;
-  z-index: 1;
+  padding-top: 1px;
+  text-align: center;
+  overflow: hidden;
+  font-size: 49px;
+  color: #486050;
 }
 
 #stopwatch-icon {
   position: absolute;
-  top: 165px;
-  left: 205px;
+  bottom: 45px;
+  left: 125px;
   width: 40px;
   height: 40px;
   z-index: 2;
+  background-image: url(../images/Go_sign.svg);
+  background-size: contain;
 }
 
 #main-date {
   position: absolute;
   bottom: 8px;
   left: 8px;
-  width: 166px;
+  width: 250px;
   height: 20px;
   z-index: 1;
+  overflow: hidden;
+  color: #486050; 
+  font-family: "RobotoLightItalic";
 }
 

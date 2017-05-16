@@ -8,16 +8,17 @@ body {
   height: 300px;
   width: 300px;
   vertical-align: baseline;
-  font-family: Inconsolata; 
+  font-family: Roboto; 
 }
 
 @font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/Inconsolata/Inconsolata-Regular.ttf);
+  font-family: "Roboto";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
-  font-family: "Inconsolata";
-  font-weight: bold;
-  src: url(../fonts/Inconsolata/Inconsolata-Bold.ttf);
+  font-family: "RobotoLightItalic";
+  font-weight: italic;
+  src: url(../fonts/Roboto/Roboto-LightItalic.ttf);
 }
+
